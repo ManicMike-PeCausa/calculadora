@@ -21,7 +21,15 @@ public class Calculadora {
    public int multiplicar() {
         return num1 * num2;
     }
-
+      /*  Añadir metodo dividir    */
+      public int dividir() {
+        if (num2 != 0) {
+            return num1 / num2;
+        } else {
+            System.out.println("Error: División por cero");
+            return 0;
+        }
+    }
 
 
 
